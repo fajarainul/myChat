@@ -190,6 +190,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         Log.d(TAG, "onConnectionFailed:" + connectionResult);
     }
 
+
+
+
+
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         public TextView messageTextView;
         public TextView messengerTextView;
@@ -202,4 +206,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             messengerImageView = (ImageView) itemView.findViewById(R.id.messengerImageView);
         }
     }
+
+
+
+
+
+
+
+
 }
